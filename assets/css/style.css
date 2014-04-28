@@ -1,0 +1,121 @@
+/* Apply a natural box layout model to all elements: http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.chromeframe {position: absolute; top: 0;}
+
+body {
+  background-color: white;
+  color: #333;
+  font-family: "chaparral-pro", Georgia, serif;
+}
+
+body, select, input, textarea { color: #333; }
+
+a { color: rgb(255,79,0); }
+a:hover { opacity: 0.8; }
+
+/* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
+::-moz-selection{background: rgb(255,79,0); color: #fff; text-shadow: none;}
+::selection {background: rgb(255,79,0); color: #fff; text-shadow: none;} 
+
+/*	j.mp/webkit-tap-highlight-color */
+a:link {-webkit-tap-highlight-color: rgb(255,79,0);}
+
+ins {background-color: rgb(255,79,0); color: #000; text-decoration: none;}
+mark {background-color: rgb(255,79,0); color: #000; font-style: italic; font-weight: bold;}
+
+/* Mozilla dosen't style place holders by default */
+input:-moz-placeholder { color:#a9a9a9; }
+textarea:-moz-placeholder { color:#a9a9a9; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(51,51,51);
+  font-family: "freight-sans-pro", Helmet, Freesans, sans-serif;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p, blockquote, ol, ul {
+  font-size: 16px;
+  line-height: 1.3125em;
+  margin-bottom: 1.125em;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.0em;
+  max-width: 500px;
+  margin: 0 auto 30px;
+}
+
+hr {
+  margin: 30px auto;
+  max-width: 660px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.wrapper {
+  margin: 0 auto 10px;
+  max-width: 660px;
+}
+
+.header-img {
+  margin-bottom: 30px;
+}
+
+.content {
+  padding: 0 25px;
+}
+
+#footnotes {
+  margin-left: auto;
+  margin-right: auto;
+  margin: 30px auto;
+  max-width: 610px;
+}
+
+#footnotes {
+  font-size: 14px !important;
+  line-height: 1.5em !important;
+  margin-bottom: 1.5em !important;
+}
+
+sup.footnoted {
+  vertical-align: super;
+}
+
+sup.footnoted a {
+  color: #111;
+  font-family: inherit;
+  font-size: 60%;
+}
+
+#back-to-top {
+  display: none;
+}
+
+@media only screen and (min-width: 480px) {
+  .wrapper {
+    margin: 100px auto 10px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .content p, .content blockquote, .content ol, .content ul {
+    font-size: 24px;
+    line-height: 1.4em;
+    margin-bottom: 1.0em;
+  }
+
+  #footnotes {
+    font-size: 16px !important;
+    line-height: 1.3125em;
+    margin-bottom: 1.125em;
+  }
+}
