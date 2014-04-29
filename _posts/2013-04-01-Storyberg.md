@@ -5,12 +5,11 @@ heading: Storyberg
 tagline: agile product development with growth and engagement metrics
 ---
 
-During my time working on a number of startups during my time at [Pollenizer](http://pollenizer.com) I was never happy with the tools we used to manage our startups, and out of this pain, Storyberg was born. Storyberg was a Lean Product Management tool which I co-founded with [Kevin Nguyen](http://twitter.com/saltysealion).
+During my time working on a number of startups at [Pollenizer](http://pollenizer.com) I was never happy with the tools we used to manage our startups, and out of this pain, Storyberg was born.
 
 ![Stanley](/assets/img/storyberg/stanley.jpg)
 
-
-[CJ Lofstrom](http://cjlofstrom.com) did the initial branding including
+Storyberg started as a Lean Product Management tool which I co-founded with [Kevin Nguyen](http://twitter.com/saltysealion). [CJ Lofstrom](http://cjlofstrom.com) did the initial branding including
 designing the Storyberg mascot, Stanley.
 
 ***
