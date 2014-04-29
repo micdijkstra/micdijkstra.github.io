@@ -46,6 +46,12 @@ li {
   margin-bottom: 0.5625em;
 }
 
+blockquote {
+  border-left: 3px solid #ccc;
+  font-style: italic;
+  padding-left: 22px;
+}
+
 h1 {
   font-size: 36px;
   line-height: 1.0em;
@@ -61,7 +67,6 @@ h2 {
 
 hr {
   margin: 30px auto;
-  max-width: 660px;
 }
 
 .text-center {
@@ -70,7 +75,7 @@ hr {
 
 .wrapper {
   margin: 0 auto 10px;
-  max-width: 660px;
+  max-width: 780px;
 }
 
 .header-img {
