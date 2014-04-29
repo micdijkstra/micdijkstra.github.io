@@ -150,14 +150,14 @@ ul {
 #footnotes {
   margin-left: auto;
   margin-right: auto;
-  margin: 30px auto;
+  margin: 30px 25px;
   max-width: 610px;
 }
 
 #footnotes {
   font-size: 14px !important;
   line-height: 1.5em !important;
-  margin-bottom: 1.5em !important;
+  margin-bottom: 1.5em;
 }
 
 sup.footnoted {
@@ -200,7 +200,7 @@ sup.footnoted a {
   #footnotes {
     font-size: 16px !important;
     line-height: 1.3125em;
-    margin-bottom: 1.125em;
+    margin: 30px auto;
   }
 }
 
