@@ -223,17 +223,17 @@ sup.footnoted a {
   .post-nav-prev {
     left: 0;
     top: 100px;
-    position: absolute;
+    position: fixed;
   }
 
   .post-nav-next {
     right: 0;
     top: 100px;
-    position: absolute;
+    position: fixed;
   }
 
   .nav a {
-    position: absolute;
+    position: fixed;
   }
 
   .nav-prev a {

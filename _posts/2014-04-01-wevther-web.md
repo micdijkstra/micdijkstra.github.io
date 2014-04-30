@@ -34,12 +34,12 @@ Functionality is the same for all devices, the only difference is the mobile ver
 to the constraints of the smaller screen size. Also, on iPhone we trigger a special layout to prompt users to download the iPhone app.
 
 Overall this was another successful build and we're really happy with the
-resultof the new [wevther.com](http://wevther.com).
+result of the new [wevther.com](http://wevther.com).
 
 ***
 
 ![Wevther Bookmarklet](/assets/img/wevther/wevther-bookmarklet.jpg)
 
-Although Jack was caught up in client work while we did most of the heavy lifting on this app, he found time to create a bookmarkelt so people can submit their own
+Although Jack was caught up in client work while we built this app, he still found time to create a bookmarkelt so people can submit their own
 products to Wevther. Try it out at
 [bookmarklet.wevther.com](http://bookmarklet.wevther.com/)
