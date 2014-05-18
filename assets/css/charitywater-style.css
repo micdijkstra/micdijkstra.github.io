@@ -11,6 +11,10 @@ p.plus {
   margin-bottom: 70px;
 }
 
+.header-img {
+  padding: 0 10px;
+}
+
 .card {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -28,4 +32,8 @@ p.plus {
   border-radius: 5px;
   margin: 0px auto !important;
   width: 100%;
+}
+
+.content img {
+  max-width: 90%;
 }
