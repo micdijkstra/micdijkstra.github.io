@@ -12,7 +12,7 @@ title: Work by Michael Dijkstra
       <img src="/assets/img/work.jpg" data-retina="/assets/img/work@2x.jpg" alt="Work" height="210" width="210">
     </div>
     <div class="header-title">
-      <h1>Product, Design<br>&amp; Development</h1>
+      <h1>Product Design<br>&amp; Development</h1>
     </div>
   </div>
 
@@ -30,10 +30,10 @@ title: Work by Michael Dijkstra
   <hr>
 
   <div class="content" id="built">
-    <h2 class="text-center">My Products</h2>
+    <h2 class="text-center">Selection of Work</h2>
 
     <ul>
-    {% for post in site.posts sort_by:date %}
+    {% for post in site.posts sort_by:date limit:5 %}
       <li><a href="{{ post.url }}">{{post.heading}}</a> &hellip; {{post.tagline}}.</li>
     {% endfor %}
     </ul>
